@@ -26,7 +26,7 @@ const greeting = {
     "A Software / Data Engineer with 8+ years of experience in various technology stacks. Currently working with Python / Django / Flask / Airflow / Postgres / Redshift / AWS / Prometheus"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-7tC_FFUwnR7xHj-KfckuWsFzFi-cQi4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HyFCk86exQ4ZfyYP1xepN3E6MyIepLxn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -302,7 +302,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3006933846",
+  number: "+971-551338532",
   email_address: "ammad.anwer@gmail.com"
 };
 
