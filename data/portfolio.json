@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "person": {
+    "name": "Muhammad Ammad",
+    "preferredName": "Ammad",
+    "headline": "Staff AI Engineer",
+    "location": "Melbourne, Australia",
+    "summary": "I’m a Staff AI Engineer with 12+ years of experience building production AI, data, cloud, and software platforms, including 0-to-1 products, agentic systems, advanced retrieval, Python services, and resilient AWS and GCP infrastructure.",
+    "contact": {
+      "email": "mailto:ammad.anwer@gmail.com",
+      "phone": "tel:+61431627646",
+      "linkedin": "https://www.linkedin.com/in/m-ammad/",
+      "github": "https://github.com/ammadanwer",
+      "portfolio": "https://ammadanwer.github.io/"
+    }
+  },
+  "experience": [
+    {
+      "company": "Basis Set Builders",
+      "title": "Staff AI Engineer",
+      "period": "06/2024 – present",
+      "location": "Remote",
+      "highlights": [
+        "Joined as the first technical hire and built Sourcer from scratch, owning 0-to-1 product and technical direction across discovery, architecture, implementation, testing, infrastructure, deployment, operations, and continuous improvement.",
+        "Partnered directly with investors and product stakeholders to uncover workflow pain points, explain AI capabilities and limitations in plain language, and turn ambiguous needs into PRDs, technical designs, MVPs, experiments, and production software.",
+        "Architected a channel-agnostic AI agent platform across Slack, email, REST, SQS, cron, and UI workflows using LangChain Deep Agents/LangGraph and DBOS, with typed tools, durable checkpoints, persistent Mem0 memory, sandboxed execution, approval gates, reusable skill packs, and safe resume/retry.",
+        "Built an email-triggered agentic AI inbox with Primitive.dev and the Claude Agent SDK, plus workflows using OpenAI Agents SDK, Codex skills, and MCP for scoped analysis, automation, and report delivery.",
+        "Delivered production research workflows for deep research, competitive analysis, and founder assessment, combining entity resolution, multi-provider evidence, structured BAML extraction, confidence and conflict handling, citations, and reproducible reports.",
+        "Implemented advanced RAG, retrieval, and context engineering with LangChain, pgvector, OpenAI/Hugging Face models, semantic memory, embedding-based company similarity, structured CRM/API retrieval, and bounded PDF pitch deck, email, Slack, and conversation evidence with explicit trust boundaries.",
+        "Built configuration-driven model routing and provider fallbacks for low-cost extraction, complex reasoning, long-context processing, and final answers, decoupling workflows from providers while centrally capturing tokens, latency, cost, and errors.",
+        "Prototyped and released LLM product workflows for sentiment analysis, document classification, structured data extraction, grounded question answering, summarisation, and evidence-backed company research.",
+        "Established production AI safety, guardrails, and evaluation with permission-tiered tools, human approvals, requester/session ownership, read-only boundaries, secret isolation, auditable side effects, and rate/token budgets; offline/live golden suites cover tool selection, safety, approvals, memory, and multi-turn behaviour with CI regression gates.",
+        "Operationalised AI with Langfuse, Prometheus, OpenAI logging, BoundaryML tracing, Kubernetes, Terraform, ELK, and Grafana, delivering traceable evaluation, repeatable infrastructure, autoscaling, monitoring, and alerting.",
+        "Created AI-native engineering workflows where agents execute bounded tasks in isolated workspaces and produce reviewable pull requests, while coaching engineers on architecture trade-offs, safe AI-assisted delivery, secure deployment, and human ownership of review and release decisions."
+      ]
+    },
+    {
+      "company": "Basis Set Builders",
+      "title": "Senior AI platform engineer",
+      "period": "07/2019 – 06/2024",
+      "location": "Remote",
+      "highlights": [
+        "Built and operated production Python services, APIs, and internal products using asyncio, FastAPI, Django, Flask, REST, GraphQL, React, and Next.js, backed by pytest unit and integration tests in CI.",
+        "Built a compounding data and intelligence layer with ETL/ELT and collection systems using Airflow, Selenium, BeautifulSoup, AWS Glue, MSK, EMR, Kinesis, Spark, and Pandas to collect, enrich, connect, and operationalise company and founder signals in decision-making tools.",
+        "Created a quantitative sourcing engine and predictive models with Python, pandas, scikit-learn, Random Forest, and XGBoost, engineering founder, company, market, and historical-growth features to identify high-potential early-stage companies.",
+        "Designed and operated secure AWS architectures spanning API Gateway, Lambda, EC2, ECS/Fargate, RDS, S3, DynamoDB, SQS/SNS, Step Functions, Kinesis, and MSK for API, event-driven, relational, and data-processing workloads.",
+        "Automated infrastructure with Terraform and built CI/CD pipelines with Jenkins and GitHub Actions for repeatable configuration and production deployments.",
+        "Implemented full-stack logging, monitoring, and alerting with Prometheus, Grafana, Sentry, and CloudWatch.",
+        "Led technical spikes, architecture decisions, technical designs, coding standards, code reviews, and design evaluations; created reusable integration patterns and mentored engineers.",
+        "Worked autonomously across product and technical decisions while partnering cross-functionally to align solutions with user needs, project goals, reliability, and maintainability."
+      ]
+    },
+    {
+      "company": "Arbisoft (Pvt) Ltd",
+      "title": "Senior Data and Cloud Engineer | Team Lead",
+      "period": "09/2018 – 08/2019",
+      "location": "Lahore — Data Engineer for Wanderu.com",
+      "highlights": [
+        "Designed and delivered ETL workflows for cloud data warehousing, including Cloudflare log and Snowplow event ingestion.",
+        "Modelled fact and dimensional tables in Amazon Redshift and PostgreSQL.",
+        "Implemented data instrumentation and monitoring with InfluxDB and Grafana.",
+        "Built deployment pipelines with Jenkins, Docker, and AWS EC2."
+      ]
+    },
+    {
+      "company": "Imzee Consulting (Pvt) Ltd — Zameen.com",
+      "title": "Senior Software Engineer | API Team Lead",
+      "period": "03/2017 – 09/2018",
+      "location": "Lahore",
+      "highlights": [
+        "Led end-to-end delivery and maintenance of REST APIs supporting high-traffic web and mobile products across Zameen, Bayut, and bproperty.",
+        "Built automated API test suites and integrated them with CI to improve release reliability.",
+        "Modernised legacy product services while mentoring engineers in Python, PHP, MySQL, Algolia, and Git."
+      ]
+    },
+    {
+      "company": "Afiniti",
+      "title": "Analyst Software Engineer | Switch Interface Engineer",
+      "period": "06/2014 – 03/2017",
+      "location": "Lahore",
+      "highlights": [
+        "Built and maintained integration services between Afiniti and Aspect UIP, Asterisk, and Genesys call-centre platforms using C#, JavaScript, .NET, and the Genesys Platform SDK.",
+        "Developed an Aspect UIP simulator to test integrations under heavy call volumes."
+      ]
+    }
+  ],
+  "skills": {
+    "AI systems and patterns": [
+      "AI Agents",
+      "Multi-Agent Workflows",
+      "LLM Applications",
+      "Agent Orchestration",
+      "RAG",
+      "Retrieval & Context Engineering",
+      "Semantic Retrieval",
+      "Prompt / Context Engineering",
+      "Grounding",
+      "Guardrails",
+      "Human-in-the-Loop",
+      "Approval Gates",
+      "Tool / Function Calling",
+      "Structured Outputs",
+      "Model Routing",
+      "Agent Memory",
+      "Durable Execution",
+      "LLM Evaluation",
+      "AI Telemetry"
+    ],
+    "AI frameworks and ML": [
+      "LangChain Deep Agents",
+      "LangGraph",
+      "OpenAI Agents SDK",
+      "Claude Agent SDK",
+      "Codex Skills",
+      "DBOS",
+      "Primitive.dev",
+      "Mem0",
+      "MCP",
+      "BAML",
+      "Langfuse",
+      "pgvector",
+      "OpenAI",
+      "Anthropic Claude",
+      "Hugging Face",
+      "scikit-learn",
+      "Random Forest",
+      "XGBoost"
+    ],
+    "Software and product engineering": [
+      "Python",
+      "Asyncio",
+      "Django",
+      "FastAPI",
+      "Flask",
+      "REST / HTTP APIs",
+      "GraphQL",
+      "Microservices",
+      "Event-Driven Systems",
+      "API Integrations",
+      "Pytest",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "MySQL",
+      "SQL & Data Modelling",
+      "PHP",
+      "C# / .NET",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Node.js Ecosystem"
+    ],
+    "Data and ML platforms": [
+      "Apache Airflow",
+      "Argo Workflows",
+      "Apache Spark",
+      "Pandas",
+      "Selenium",
+      "BeautifulSoup",
+      "Kinesis",
+      "MSK / Kafka",
+      "EMR",
+      "AWS Glue",
+      "Redshift",
+      "ETL / ELT",
+      "Embeddings",
+      "Snowplow",
+      "InfluxDB"
+    ],
+    "Cloud and architecture": [
+      "AWS Architecture",
+      "GCP",
+      "EC2",
+      "Lambda",
+      "API Gateway",
+      "ECS / Fargate",
+      "RDS",
+      "S3",
+      "DynamoDB",
+      "SQS / SNS",
+      "Step Functions",
+      "Relational Workloads",
+      "Event-Driven Workloads"
+    ],
+    "Delivery, quality, and operations": [
+      "Terraform / IaC",
+      "Kubernetes",
+      "Docker",
+      "Git",
+      "CI/CD",
+      "GitHub Actions",
+      "Jenkins",
+      "Unit / Integration Testing",
+      "Regression Testing",
+      "API Testing",
+      "Prometheus",
+      "Grafana",
+      "Sentry",
+      "CloudWatch",
+      "ELK",
+      "Observability",
+      "Logging / Monitoring / Alerting"
+    ],
+    "Product and technical leadership": [
+      "First Technical Hire",
+      "0-to-1 Delivery",
+      "Product Discovery",
+      "PRDs & Technical Design",
+      "Rapid Prototyping",
+      "Architecture",
+      "Code Review",
+      "Mentoring",
+      "Cross-Functional Collaboration",
+      "Customer / Investor Collaboration"
+    ]
+  },
+  "education": [
+    {
+      "qualification": "Bachelor of Computer Science",
+      "institution": "FAST-NU (National University of Computer & Emerging Sciences)",
+      "period": "2010 – 2014",
+      "location": "Lahore, Pakistan"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Data Engineering Nanodegree",
+      "issuer": "Udacity",
+      "date": "October 2019",
+      "url": "https://graduation.udacity.com/confirm/ECMURDF"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "October 2020",
+      "url": "https://www.youracclaim.com/badges/3850593b-9680-48a0-8632-d398267ed43d"
+    }
+  ],
+  "suggestedQuestions": [
+    "What kind of AI work have you done?",
+    "What did you build as the first technical hire?",
+    "Tell me about your data engineering background.",
+    "How can I contact you?"
+  ],
+  "responses": [
+    {
+      "id": "availability",
+      "priority": 50,
+      "keywords": ["available", "availability", "can i hire", "hire ammad", "hiring ammad", "job opportunity", "open to work", "new role"],
+      "text": "My approved portfolio does not state my current availability. Please contact the real Ammad directly for an authoritative answer.",
+      "links": [
+        { "label": "Contact the real Ammad", "href": "mailto:ammad.anwer@gmail.com" },
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/m-ammad/" }
+      ]
+    },
+    {
+      "id": "commitments",
+      "priority": 100,
+      "keywords": ["salary", "compensation", "negotiate", "accept an offer", "make a decision", "promise", "commit"],
+      "text": "I’m an AI representation of Ammad, so I can’t negotiate, make promises, or make decisions on Ammad’s behalf. Please contact him directly.",
+      "links": [
+        { "label": "Contact the real Ammad", "href": "mailto:ammad.anwer@gmail.com" }
+      ]
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "email", "phone", "reach", "linkedin", "github", "get in touch"],
+      "text": "You can email me at ammad.anwer@gmail.com or connect with me on LinkedIn. My public code profile is also available on GitHub.",
+      "links": [
+        { "label": "Email Ammad", "href": "mailto:ammad.anwer@gmail.com" },
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/m-ammad/" },
+        { "label": "GitHub", "href": "https://github.com/ammadanwer" }
+      ]
+    },
+    {
+      "id": "sourcer",
+      "keywords": ["sourcer", "first technical hire", "0-to-1", "zero to one", "built from scratch", "product ownership", "product discovery"],
+      "text": "I joined Basis Set Builders as its first technical hire and built Sourcer from scratch. I owned 0-to-1 product and technical direction across user discovery, architecture, implementation, testing, cloud infrastructure, deployment, operations, rapid experiments, and continuous improvement.",
+      "links": []
+    },
+    {
+      "id": "agent-platform",
+      "keywords": ["agent platform", "agent harness", "slack agent", "email agent", "email-triggered", "channel-agnostic", "langgraph", "dbos", "durable execution", "mem0", "primitive.dev"],
+      "text": "I architected agent workflows across Slack, email, REST, SQS, cron, and UI using LangChain Deep Agents/LangGraph, DBOS, Primitive.dev, and Claude and OpenAI tooling. The platform uses typed and sandboxed tools, durable checkpoints, memory, approvals, reusable skills, and safe resume/retry.",
+      "links": []
+    },
+    {
+      "id": "research-ai",
+      "keywords": ["deep research", "competitive analysis", "founder assessment", "founder outlier", "pitch deck", "baml", "entity resolution", "evidence", "company research"],
+      "text": "I built production workflows for deep research, competitive analysis, founder assessment, and pitch-deck analysis. They combine entity resolution, multi-provider evidence, BAML structured extraction, RAG, semantic similarity, citations, conflict handling, trust boundaries, and reproducible reports.",
+      "links": []
+    },
+    {
+      "id": "ai-safety-evaluation",
+      "keywords": ["ai safety", "guardrail", "evaluation", "evals", "golden test", "approval gate", "permission", "governance", "trusted context", "regression gate"],
+      "text": "My production AI controls include permission-tiered tools, human approvals, requester and session ownership, read-only boundaries, sandboxing, rate/token budgets, offline and live golden evaluations, deterministic contract and safety tests, CI regression gates, and Langfuse tracing for quality, latency, tokens, cost, and errors.",
+      "links": []
+    },
+    {
+      "id": "predictive-ml",
+      "keywords": ["machine learning", "predictive model", "random forest", "xgboost", "scikit-learn", "growth model", "ranking model"],
+      "text": "I developed predictive ranking models with Python, pandas, scikit-learn, Random Forest, and XGBoost. I engineered founder, company, market, and historical-growth features to help identify high-potential early-stage companies, alongside a quantitative sourcing engine using AI and statistical methods.",
+      "links": []
+    },
+    {
+      "id": "current-role",
+      "keywords": ["current role", "current job", "job title", "professional title", "currently", "now", "staff engineer", "staff ai engineer", "basis set"],
+      "text": "I currently work remotely as a Staff AI Engineer at Basis Set Builders, a role I have held since June 2024. I own production AI architecture and delivery spanning agent platforms, research and RAG, safety and evaluation, model routing, observability, infrastructure, and technical mentorship.",
+      "links": []
+    },
+    {
+      "id": "ai",
+      "keywords": ["ai", "artificial intelligence", "agentic", "agent", "llm", "rag", "openai", "claude", "langchain", "pgvector", "hugging face", "langfuse", "mcp", "prompt engineering"],
+      "text": "I build production AI agents, RAG and context systems, structured research workflows, model routing, and LLM product features. My work covers durable execution, memory, tool use, human approvals, safety, evaluation, observability, cloud deployment, and AI-assisted engineering with explicit human review.",
+      "links": []
+    },
+    {
+      "id": "data-engineering",
+      "keywords": ["data", "data engineering", "pipeline", "etl", "elt", "airflow", "spark", "pandas", "kinesis", "msk", "emr", "glue", "redshift", "snowplow", "influxdb", "warehouse"],
+      "text": "I have built ETL/ELT, scraping, warehouse, event, and log-ingestion systems with Airflow, Argo Workflows, Spark, Pandas, Glue, MSK/Kafka, EMR, Kinesis, Redshift, PostgreSQL, Snowplow, and InfluxDB. I also built embeddings, sourcing, and predictive ranking pipelines for company and founder intelligence.",
+      "links": []
+    },
+    {
+      "id": "cloud",
+      "keywords": ["cloud", "aws", "gcp", "infrastructure", "kubernetes", "terraform", "docker", "ec2", "ecs", "lambda", "s3", "rds", "dynamodb", "fargate"],
+      "text": "I have 7+ years of experience designing and operating AWS systems, plus GCP experience. My production work spans EC2, Lambda, API Gateway, ECS/Fargate, RDS, S3, DynamoDB, SQS/SNS, Step Functions, Kinesis, and MSK, with Terraform, Kubernetes, Docker, CI/CD, autoscaling, and cloud observability.",
+      "links": []
+    },
+    {
+      "id": "backend",
+      "keywords": ["backend", "api", "microservice", "python", "django", "fastapi", "flask", "graphql", "rest", "c#", "php", ".net"],
+      "text": "I have built asynchronous Python services, product platforms, integrations, microservices, and high-traffic APIs using asyncio, Django, FastAPI, Flask, REST, GraphQL, SQLAlchemy, PostgreSQL, MySQL, and pytest. My earlier work includes PHP and C#/.NET API and call-centre integrations.",
+      "links": []
+    },
+    {
+      "id": "frontend",
+      "keywords": ["frontend", "front end", "react", "next.js", "javascript", "node.js", "web development"],
+      "text": "My core profile is AI, data, cloud, and backend engineering, and I have also built product interfaces and internal platforms with React, Next.js, JavaScript, and the Node.js ecosystem.",
+      "links": []
+    },
+    {
+      "id": "leadership",
+      "keywords": ["leadership", "lead", "team lead", "mentor", "mentoring", "management", "code review", "architecture"],
+      "text": "I have been a first technical hire, Staff AI Engineer, API Team Lead, and Data and Cloud Engineering Team Lead. I have owned 0-to-1 delivery and technical direction, led architecture and code reviews, created engineering standards, mentored engineers, and partnered directly with users and investors.",
+      "links": []
+    },
+    {
+      "id": "career",
+      "keywords": ["career", "work history", "experience", "employer", "companies", "worked", "previous roles", "background"],
+      "text": "My public career history spans Basis Set Builders, Arbisoft, Imzee Consulting/Zameen.com, and Afiniti, beginning in 2014. My roles progressed through software and API engineering, data and cloud leadership, senior platform work, and my current Staff AI Engineer role.",
+      "links": []
+    },
+    {
+      "id": "skills",
+      "keywords": ["skills", "technologies", "tech stack", "tools", "expertise", "specialise", "specialize"],
+      "text": "My skills span AI agents, RAG/context engineering, evaluation and guardrails, Python product engineering, data and ML platforms, AWS/GCP architecture, infrastructure as code, automated testing, observability, and 0-to-1 technical leadership. My portfolio lists the specific frameworks, cloud services, databases, and delivery tools I have used.",
+      "links": []
+    },
+    {
+      "id": "education",
+      "keywords": ["education", "degree", "university", "college", "study", "studied", "bachelor", "fast-nu", "computer science"],
+      "text": "I earned a Bachelor of Computer Science from FAST-NU, the National University of Computer & Emerging Sciences, in Lahore, Pakistan, from 2010 to 2014.",
+      "links": []
+    },
+    {
+      "id": "certifications",
+      "keywords": ["certification", "certifications", "certificate", "credential", "udacity", "nanodegree", "cloud practitioner"],
+      "text": "My approved portfolio lists a Udacity Data Engineering Nanodegree from October 2019 and the AWS Certified Cloud Practitioner credential from October 2020.",
+      "links": [
+        { "label": "Verify Udacity credential", "href": "https://graduation.udacity.com/confirm/ECMURDF" },
+        { "label": "View AWS badge", "href": "https://www.youracclaim.com/badges/3850593b-9680-48a0-8632-d398267ed43d" }
+      ]
+    },
+    {
+      "id": "location",
+      "keywords": ["location", "located", "live", "based", "melbourne", "australia", "where"],
+      "text": "I live in Melbourne, Australia. My current role at Basis Set Builders is remote.",
+      "links": []
+    },
+    {
+      "id": "overview",
+      "keywords": ["who is ammad", "who are you", "about ammad", "introduce", "overview", "tell me about yourself", "what do you do"],
+      "text": "I’m a Melbourne-based Staff AI Engineer with 12+ years across software, data, cloud, and production AI. I was Basis Set Builders’ first technical hire and work hands-on across product discovery, architecture, implementation, evaluation, deployment, operations, and engineering mentorship.",
+      "links": []
+    }
+  ],
+  "fallback": {
+    "text": "I’m Ammad’s AI portfolio assistant, and I don’t have verified information about that. You can contact Ammad directly for an authoritative answer.",
+    "links": [
+      { "label": "Contact the real Ammad", "href": "mailto:ammad.anwer@gmail.com" }
+    ]
+  }
+}

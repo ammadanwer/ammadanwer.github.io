@@ -1,0 +1,30 @@
+.DS_Store
+node_modules/
+coverage/
+
+# Local provider and deployment secrets
+.env*
+!.env.example
+.dev.vars*
+!.dev.vars.example
+!worker/.dev.vars.example
+.wrangler/
+
+# Private voice-service inputs and generated artifacts
+services/voice/private/
+services/voice/recordings/
+services/voice/generated/
+services/voice/model-cache/
+services/voice/**/*.wav
+services/voice/**/*.mp3
+services/voice/**/*.flac
+services/voice/**/*.npy
+services/voice/**/*.pt
+services/voice/**/*.safetensors
+
+# Python and Modal development state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.modal/

@@ -1,0 +1,7 @@
+# Copy this file to .dev.vars and replace the placeholder with at least 32 random characters.
+RATE_LIMIT_SALT="replace-with-a-long-random-local-development-value"
+
+# Leave voice disabled in wrangler.jsonc until a private Modal endpoint exists.
+VOICE_ENDPOINT_URL="https://replace-with-your-private-modal-endpoint.modal.run"
+MODAL_PROXY_KEY="replace-with-modal-proxy-token-id"
+MODAL_PROXY_SECRET="replace-with-modal-proxy-token-secret"

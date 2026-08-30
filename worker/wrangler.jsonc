@@ -1,0 +1,57 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ammad-portfolio-ai",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-08-13",
+  "workers_dev": true,
+  "ai": {
+    "binding": "AI"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "USAGE_GUARD",
+        "class_name": "UsageGuard"
+      }
+    ]
+  },
+  "exports": {
+    "UsageGuard": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  },
+  "ratelimits": [
+    {
+      "name": "SESSION_BURST_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 6,
+        "period": 60
+      }
+    },
+    {
+      "name": "NETWORK_BURST_LIMITER",
+      "namespace_id": "1002",
+      "simple": {
+        "limit": 30,
+        "period": 60
+      }
+    }
+  ],
+  "vars": {
+    "AI_ENABLED": "true",
+    "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
+    "ALLOWED_ORIGINS": "https://ammadanwer.github.io,http://localhost:8000,http://127.0.0.1:8000",
+    "SESSION_REQUEST_LIMIT": "5",
+    "DAILY_REQUEST_LIMIT": "250",
+    "DAILY_AI_LIMIT": "50",
+    "DAILY_VOICE_LIMIT": "20",
+    "REQUEST_TIMEOUT_MS": "15000",
+    "VOICE_ENABLED": "true",
+    "VOICE_TIMEOUT_MS": "120000"
+  },
+  "secrets": {
+    "required": ["RATE_LIMIT_SALT"]
+  }
+}
