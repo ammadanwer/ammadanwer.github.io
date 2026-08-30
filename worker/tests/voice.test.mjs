@@ -29,7 +29,7 @@ test("voice configuration requires the kill switch and every private value", () 
 test("the Modal request uses proxy headers and returns bounded WAV data", async () => {
   let request;
   const speech = await synthesizeSpeech({
-    text: "I live in Melbourne and build grounded AI systems.",
+    text: "I’m Ammad, I live in Melbourne, and I build grounded AI systems.",
     endpoint: "https://voice.modal.run/synthesize",
     proxyKey: "key",
     proxySecret: "secret",
@@ -47,7 +47,7 @@ test("the Modal request uses proxy headers and returns bounded WAV data", async 
   assert.equal(request.init.headers["Modal-Key"], "key");
   assert.equal(request.init.headers["Modal-Secret"], "secret");
   assert.deepEqual(JSON.parse(request.init.body), {
-    text: "I live in Melburn and build grounded AI systems."
+    text: "I’m Ammaad, I live in Melburn, and I build grounded AI systems."
   });
   assert.equal(speech.mimeType, "audio/wav");
   assert.equal(speech.durationMs, 2400);

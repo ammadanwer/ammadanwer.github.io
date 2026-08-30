@@ -16,7 +16,9 @@ function validSecret(value) {
 }
 
 function applyPronunciationOverrides(text) {
-  return text.replace(/\bMelbourne\b/g, "Melburn");
+  return text
+    .replace(/\bAmmad\b/g, "Ammaad")
+    .replace(/\bMelbourne\b/g, "Melburn");
 }
 
 export function isVoiceConfigured(env) {
